@@ -1,0 +1,5 @@
+# ninja log v5
+4	1667	6682553760664287	CMakeFiles/mr.dir/matrix_reset.cpp.obj	8282a394cbafdadf
+1668	1830	6682553762254263	mr.exe	a870f21a4a997b21
+3	1938	6705061964184565	CMakeFiles/dfs_back_track.dir/dfs_with_backtrack.cpp.obj	59057c7a7d200661
+1939	2145	6705061966234542	dfs_back_track.exe	4a617ebd1cccb246

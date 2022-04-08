@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "leetcode",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TS-Debug-7b129b5020b9f3840880.json",
+					"name" : "TS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cacl1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cacl1-Debug-e8b6f1f68df940323008.json",
+					"name" : "cacl1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cg-Debug-d20cce0608a222fb8a8f.json",
+					"name" : "cg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dup-Debug-00e96b5f1de0498bff6a.json",
+					"name" : "dup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mi-Debug-276a1a588dcf5459bcae.json",
+					"name" : "mi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ns::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ns-Debug-1b26fb87f8600d33d571.json",
+					"name" : "ns",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "peak::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-peak-Debug-be3125bcfb4e5ea8f967.json",
+					"name" : "peak",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pft::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pft-Debug-09fa6a5ca4a5024a9483.json",
+					"name" : "pft",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stocks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stocks-Debug-9a05fbca9735285191b4.json",
+					"name" : "stocks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tree-Debug-8cf355371ad3dfeff511.json",
+					"name" : "tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "triplets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-triplets-Debug-220f497f928b24ae6b64.json",
+					"name" : "triplets",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/neha2/CLionProjects/leetcode/cmake-build-debug",
+		"source" : "C:/Users/neha2/CLionProjects/leetcode"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

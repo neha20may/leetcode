@@ -1,0 +1,5 @@
+# ninja log v5
+4	2681	6682627883544041	CMakeFiles/group_ana.dir/anagrams_ordering.cpp.obj	5d80dc9c4113dbe3
+2682	2959	6682627886304766	group_ana.exe	439c596e1b6418d6
+2202	2369	6683410937436212	palin.exe	e1ec212557eab01
+4	2202	6683410935786241	CMakeFiles/palin.dir/palindrome.cpp.obj	a2fa67eb2e0574

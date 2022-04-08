@@ -1,0 +1,5 @@
+# ninja log v5
+4	3076	6706142110424863	CMakeFiles/trie_dfs.dir/trie_dfs.cpp.obj	c95c473231782c4c
+3077	3463	6706142114494915	trie_dfs.exe	30908457c175c4ec
+4	2260	6705902211913950	CMakeFiles/test_new_vector.dir/test_new_vector.cpp.obj	785c7ccf21a74371
+2261	2431	6705902213593922	test_new_vector.exe	9833e3b48ab2f023

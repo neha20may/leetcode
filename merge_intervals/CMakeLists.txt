@@ -1,0 +1,1 @@
+add_executable(minr min_rooms.cpp ../bit_manipulation/addition.cpp)

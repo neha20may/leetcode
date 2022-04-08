@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "leetcode_tree_graph",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "inors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inors-Debug-bc3d35cbb2dc52dc2681.json",
+					"name" : "inors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wl-Debug-8b96ec06ea084274afb3.json",
+					"name" : "wl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zigzag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zigzag-Debug-f79cbb981f5c6d8a0ef1.json",
+					"name" : "zigzag",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/neha2/CLionProjects/leetcode/tree_graphs/cmake-build-debug",
+		"source" : "C:/Users/neha2/CLionProjects/leetcode/tree_graphs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

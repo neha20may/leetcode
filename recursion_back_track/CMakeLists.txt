@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.21)
+project(leetcode)
+
+set(CMAKE_CXX_STANDARD 14)
+add_executable(rc1 letter_combo.cpp)
+add_executable(gen_paren gen_paren.cpp ../dp/wildcard.cpp)
+add_executable( perm permutation.cpp)
+add_executable(ws word_search.cpp)
+add_executable(rmi remove_invalid_paren.cpp)

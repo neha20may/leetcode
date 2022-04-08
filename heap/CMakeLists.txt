@@ -1,0 +1,1 @@
+add_executable(sortk sort_k_lists.cpp ../list/createList.h ../list/sort_list.cpp)
