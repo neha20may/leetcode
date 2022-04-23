@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/neha2/CLionProjects/leetcode/string/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target lss
+
+
+#############################################
+# Order-only phony target for lss
+
+build cmake_object_order_depends_target_lss: phony || CMakeFiles/lss.dir
+
+build CMakeFiles/lss.dir/last_sibstring_lexo.cpp.obj: CXX_COMPILER__lss_Debug C$:/Users/neha2/CLionProjects/leetcode/string/last_sibstring_lexo.cpp || cmake_object_order_depends_target_lss
+  DEP_FILE = CMakeFiles\lss.dir\last_sibstring_lexo.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\lss.dir
+  OBJECT_FILE_DIR = CMakeFiles\lss.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lss
+
+
+#############################################
+# Link the executable lss.exe
+
+build lss.exe: CXX_EXECUTABLE_LINKER__lss_Debug CMakeFiles/lss.dir/last_sibstring_lexo.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lss.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lss.exe
+  TARGET_IMPLIB = liblss.dll.a
+  TARGET_PDB = lss.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target group_ana
 
 
@@ -100,6 +133,12 @@ build CMakeFiles/anagram.dir/C_/Users/neha2/CLionProjects/leetcode/dp/increasing
   OBJECT_DIR = CMakeFiles\anagram.dir
   OBJECT_FILE_DIR = CMakeFiles\anagram.dir\C_\Users\neha2\CLionProjects\leetcode\dp
 
+build CMakeFiles/anagram.dir/C_/Users/neha2/CLionProjects/leetcode/merge_intervals/water_plants.cpp.obj: CXX_COMPILER__anagram_Debug C$:/Users/neha2/CLionProjects/leetcode/merge_intervals/water_plants.cpp || cmake_object_order_depends_target_anagram
+  DEP_FILE = CMakeFiles\anagram.dir\C_\Users\neha2\CLionProjects\leetcode\merge_intervals\water_plants.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\anagram.dir
+  OBJECT_FILE_DIR = CMakeFiles\anagram.dir\C_\Users\neha2\CLionProjects\leetcode\merge_intervals
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target anagram
@@ -108,7 +147,7 @@ build CMakeFiles/anagram.dir/C_/Users/neha2/CLionProjects/leetcode/dp/increasing
 #############################################
 # Link the executable anagram.exe
 
-build anagram.exe: CXX_EXECUTABLE_LINKER__anagram_Debug CMakeFiles/anagram.dir/anagram.cpp.obj CMakeFiles/anagram.dir/palindrome.cpp.obj CMakeFiles/anagram.dir/C_/Users/neha2/CLionProjects/leetcode/dp/increasing_triplet.cpp.obj
+build anagram.exe: CXX_EXECUTABLE_LINKER__anagram_Debug CMakeFiles/anagram.dir/anagram.cpp.obj CMakeFiles/anagram.dir/palindrome.cpp.obj CMakeFiles/anagram.dir/C_/Users/neha2/CLionProjects/leetcode/dp/increasing_triplet.cpp.obj CMakeFiles/anagram.dir/C_/Users/neha2/CLionProjects/leetcode/merge_intervals/water_plants.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\anagram.dir
@@ -181,6 +220,8 @@ build anagram: phony anagram.exe
 
 build group_ana: phony group_ana.exe
 
+build lss: phony lss.exe
+
 build palin: phony palin.exe
 
 # =============================================================================
@@ -191,7 +232,7 @@ build palin: phony palin.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/string/cmake-build-debug
 
-build all: phony group_ana.exe anagram.exe palin.exe
+build all: phony lss.exe group_ana.exe anagram.exe palin.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

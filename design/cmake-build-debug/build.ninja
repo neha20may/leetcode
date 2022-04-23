@@ -73,6 +73,18 @@ build CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/recursion_back_tra
   OBJECT_DIR = CMakeFiles\2d.dir
   OBJECT_FILE_DIR = CMakeFiles\2d.dir\C_\Users\neha2\CLionProjects\leetcode\recursion_back_track
 
+build CMakeFiles/2d.dir/segement_word_dict.cpp.obj: CXX_COMPILER__2d_Debug C$:/Users/neha2/CLionProjects/leetcode/design/segement_word_dict.cpp || cmake_object_order_depends_target_2d
+  DEP_FILE = CMakeFiles\2d.dir\segement_word_dict.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\2d.dir
+  OBJECT_FILE_DIR = CMakeFiles\2d.dir
+
+build CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/dp/split_array.cpp.obj: CXX_COMPILER__2d_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/split_array.cpp || cmake_object_order_depends_target_2d
+  DEP_FILE = CMakeFiles\2d.dir\C_\Users\neha2\CLionProjects\leetcode\dp\split_array.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\2d.dir
+  OBJECT_FILE_DIR = CMakeFiles\2d.dir\C_\Users\neha2\CLionProjects\leetcode\dp
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 2d
@@ -81,7 +93,7 @@ build CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/recursion_back_tra
 #############################################
 # Link the executable 2d.exe
 
-build 2d.exe: CXX_EXECUTABLE_LINKER__2d_Debug CMakeFiles/2d.dir/2dvector.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/no_to_string.cpp.obj CMakeFiles/2d.dir/test_new_vector.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/recursion_back_track/remove_invalid_paren.cpp.obj
+build 2d.exe: CXX_EXECUTABLE_LINKER__2d_Debug CMakeFiles/2d.dir/2dvector.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/no_to_string.cpp.obj CMakeFiles/2d.dir/test_new_vector.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/recursion_back_track/remove_invalid_paren.cpp.obj CMakeFiles/2d.dir/segement_word_dict.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/dp/split_array.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\2d.dir
@@ -169,6 +181,39 @@ build test_new_vector.exe: CXX_EXECUTABLE_LINKER__test_new_vector_Debug CMakeFil
   TARGET_IMPLIB = libtest_new_vector.dll.a
   TARGET_PDB = test_new_vector.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target swd
+
+
+#############################################
+# Order-only phony target for swd
+
+build cmake_object_order_depends_target_swd: phony || CMakeFiles/swd.dir
+
+build CMakeFiles/swd.dir/segement_word_dict.cpp.obj: CXX_COMPILER__swd_Debug C$:/Users/neha2/CLionProjects/leetcode/design/segement_word_dict.cpp || cmake_object_order_depends_target_swd
+  DEP_FILE = CMakeFiles\swd.dir\segement_word_dict.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\swd.dir
+  OBJECT_FILE_DIR = CMakeFiles\swd.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target swd
+
+
+#############################################
+# Link the executable swd.exe
+
+build swd.exe: CXX_EXECUTABLE_LINKER__swd_Debug CMakeFiles/swd.dir/segement_word_dict.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\swd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = swd.exe
+  TARGET_IMPLIB = libswd.dll.a
+  TARGET_PDB = swd.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -185,6 +230,8 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build 2d: phony 2d.exe
 
+build swd: phony swd.exe
+
 build test_new_vector: phony test_new_vector.exe
 
 build trie_dfs: phony trie_dfs.exe
@@ -197,7 +244,7 @@ build trie_dfs: phony trie_dfs.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/design/cmake-build-debug
 
-build all: phony 2d.exe trie_dfs.exe test_new_vector.exe
+build all: phony 2d.exe trie_dfs.exe test_new_vector.exe swd.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

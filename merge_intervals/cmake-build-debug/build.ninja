@@ -79,6 +79,39 @@ build minr.exe: CXX_EXECUTABLE_LINKER__minr_Debug CMakeFiles/minr.dir/min_rooms.
   TARGET_IMPLIB = libminr.dll.a
   TARGET_PDB = minr.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target wp
+
+
+#############################################
+# Order-only phony target for wp
+
+build cmake_object_order_depends_target_wp: phony || CMakeFiles/wp.dir
+
+build CMakeFiles/wp.dir/water_plants.cpp.obj: CXX_COMPILER__wp_Debug C$:/Users/neha2/CLionProjects/leetcode/merge_intervals/water_plants.cpp || cmake_object_order_depends_target_wp
+  DEP_FILE = CMakeFiles\wp.dir\water_plants.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\wp.dir
+  OBJECT_FILE_DIR = CMakeFiles\wp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wp
+
+
+#############################################
+# Link the executable wp.exe
+
+build wp.exe: CXX_EXECUTABLE_LINKER__wp_Debug CMakeFiles/wp.dir/water_plants.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\wp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = wp.exe
+  TARGET_IMPLIB = libwp.dll.a
+  TARGET_PDB = wp.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -107,6 +140,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build minr: phony minr.exe
 
+build wp: phony wp.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -115,7 +150,7 @@ build minr: phony minr.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/merge_intervals/cmake-build-debug
 
-build all: phony minr.exe
+build all: phony minr.exe wp.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

@@ -1,3 +1,4 @@
 C:/Users/neha2/CLionProjects/leetcode/merge_intervals/cmake-build-debug/CMakeFiles/minr.dir
+C:/Users/neha2/CLionProjects/leetcode/merge_intervals/cmake-build-debug/CMakeFiles/wp.dir
 C:/Users/neha2/CLionProjects/leetcode/merge_intervals/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/neha2/CLionProjects/leetcode/merge_intervals/cmake-build-debug/CMakeFiles/rebuild_cache.dir

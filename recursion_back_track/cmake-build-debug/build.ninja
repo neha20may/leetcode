@@ -94,6 +94,12 @@ build CMakeFiles/gen_paren.dir/C_/Users/neha2/CLionProjects/leetcode/dp/wildcard
   OBJECT_DIR = CMakeFiles\gen_paren.dir
   OBJECT_FILE_DIR = CMakeFiles\gen_paren.dir\C_\Users\neha2\CLionProjects\leetcode\dp
 
+build CMakeFiles/gen_paren.dir/C_/Users/neha2/CLionProjects/leetcode/string/last_sibstring_lexo.cpp.obj: CXX_COMPILER__gen_paren_Debug C$:/Users/neha2/CLionProjects/leetcode/string/last_sibstring_lexo.cpp || cmake_object_order_depends_target_gen_paren
+  DEP_FILE = CMakeFiles\gen_paren.dir\C_\Users\neha2\CLionProjects\leetcode\string\last_sibstring_lexo.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\gen_paren.dir
+  OBJECT_FILE_DIR = CMakeFiles\gen_paren.dir\C_\Users\neha2\CLionProjects\leetcode\string
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target gen_paren
@@ -102,7 +108,7 @@ build CMakeFiles/gen_paren.dir/C_/Users/neha2/CLionProjects/leetcode/dp/wildcard
 #############################################
 # Link the executable gen_paren.exe
 
-build gen_paren.exe: CXX_EXECUTABLE_LINKER__gen_paren_Debug CMakeFiles/gen_paren.dir/gen_paren.cpp.obj CMakeFiles/gen_paren.dir/C_/Users/neha2/CLionProjects/leetcode/dp/wildcard.cpp.obj
+build gen_paren.exe: CXX_EXECUTABLE_LINKER__gen_paren_Debug CMakeFiles/gen_paren.dir/gen_paren.cpp.obj CMakeFiles/gen_paren.dir/C_/Users/neha2/CLionProjects/leetcode/dp/wildcard.cpp.obj CMakeFiles/gen_paren.dir/C_/Users/neha2/CLionProjects/leetcode/string/last_sibstring_lexo.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\gen_paren.dir
@@ -111,6 +117,39 @@ build gen_paren.exe: CXX_EXECUTABLE_LINKER__gen_paren_Debug CMakeFiles/gen_paren
   TARGET_FILE = gen_paren.exe
   TARGET_IMPLIB = libgen_paren.dll.a
   TARGET_PDB = gen_paren.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vp
+
+
+#############################################
+# Order-only phony target for vp
+
+build cmake_object_order_depends_target_vp: phony || CMakeFiles/vp.dir
+
+build CMakeFiles/vp.dir/valid_parenthesis.cpp.obj: CXX_COMPILER__vp_Debug C$:/Users/neha2/CLionProjects/leetcode/recursion_back_track/valid_parenthesis.cpp || cmake_object_order_depends_target_vp
+  DEP_FILE = CMakeFiles\vp.dir\valid_parenthesis.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\vp.dir
+  OBJECT_FILE_DIR = CMakeFiles\vp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vp
+
+
+#############################################
+# Link the executable vp.exe
+
+build vp.exe: CXX_EXECUTABLE_LINKER__vp_Debug CMakeFiles/vp.dir/valid_parenthesis.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vp.exe
+  TARGET_IMPLIB = libvp.dll.a
+  TARGET_PDB = vp.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target rmi
@@ -245,6 +284,8 @@ build rc1: phony rc1.exe
 
 build rmi: phony rmi.exe
 
+build vp: phony vp.exe
+
 build ws: phony ws.exe
 
 # =============================================================================
@@ -255,7 +296,7 @@ build ws: phony ws.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/recursion_back_track/cmake-build-debug
 
-build all: phony rc1.exe gen_paren.exe rmi.exe perm.exe ws.exe
+build all: phony rc1.exe gen_paren.exe vp.exe rmi.exe perm.exe ws.exe
 
 # =============================================================================
 # Built-in targets

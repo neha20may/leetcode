@@ -151,6 +151,45 @@ build dfs_back_track.exe: CXX_EXECUTABLE_LINKER__dfs_back_track_Debug CMakeFiles
   TARGET_IMPLIB = libdfs_back_track.dll.a
   TARGET_PDB = dfs_back_track.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target countP
+
+
+#############################################
+# Order-only phony target for countP
+
+build cmake_object_order_depends_target_countP: phony || CMakeFiles/countP.dir
+
+build CMakeFiles/countP.dir/count_paths.cpp.obj: CXX_COMPILER__countP_Debug C$:/Users/neha2/CLionProjects/leetcode/grid/count_paths.cpp || cmake_object_order_depends_target_countP
+  DEP_FILE = CMakeFiles\countP.dir\count_paths.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\countP.dir
+  OBJECT_FILE_DIR = CMakeFiles\countP.dir
+
+build CMakeFiles/countP.dir/C_/Users/neha2/CLionProjects/leetcode/array/buy_sell/buy_sell_2.cpp.obj: CXX_COMPILER__countP_Debug C$:/Users/neha2/CLionProjects/leetcode/array/buy_sell/buy_sell_2.cpp || cmake_object_order_depends_target_countP
+  DEP_FILE = CMakeFiles\countP.dir\C_\Users\neha2\CLionProjects\leetcode\array\buy_sell\buy_sell_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\countP.dir
+  OBJECT_FILE_DIR = CMakeFiles\countP.dir\C_\Users\neha2\CLionProjects\leetcode\array\buy_sell
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target countP
+
+
+#############################################
+# Link the executable countP.exe
+
+build countP.exe: CXX_EXECUTABLE_LINKER__countP_Debug CMakeFiles/countP.dir/count_paths.cpp.obj CMakeFiles/countP.dir/C_/Users/neha2/CLionProjects/leetcode/array/buy_sell/buy_sell_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\countP.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = countP.exe
+  TARGET_IMPLIB = libcountP.dll.a
+  TARGET_PDB = countP.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -177,6 +216,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build countP: phony countP.exe
+
 build dfs_back_track: phony dfs_back_track.exe
 
 build grid: phony grid.exe
@@ -191,7 +232,7 @@ build mr: phony mr.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/grid/cmake-build-debug
 
-build all: phony grid.exe mr.exe dfs_back_track.exe
+build all: phony grid.exe mr.exe dfs_back_track.exe countP.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,0 +1,83 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "anagram::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anagram-Debug-0b73bb16be8fe0a0255c.json",
+					"name" : "anagram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "group_ana::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-group_ana-Debug-35a603bfb3b9561e30f9.json",
+					"name" : "group_ana",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lss::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lss-Debug-5fa78ff8cae273c1d5cf.json",
+					"name" : "lss",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "palin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-palin-Debug-1819e5cf908c4acf433a.json",
+					"name" : "palin",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/neha2/CLionProjects/leetcode/string/cmake-build-debug",
+		"source" : "C:/Users/neha2/CLionProjects/leetcode/string"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

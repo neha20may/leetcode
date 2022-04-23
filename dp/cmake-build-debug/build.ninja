@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target sa
+
+
+#############################################
+# Order-only phony target for sa
+
+build cmake_object_order_depends_target_sa: phony || CMakeFiles/sa.dir
+
+build CMakeFiles/sa.dir/split_array.cpp.obj: CXX_COMPILER__sa_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/split_array.cpp || cmake_object_order_depends_target_sa
+  DEP_FILE = CMakeFiles\sa.dir\split_array.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\sa.dir
+  OBJECT_FILE_DIR = CMakeFiles\sa.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sa
+
+
+#############################################
+# Link the executable sa.exe
+
+build sa.exe: CXX_EXECUTABLE_LINKER__sa_Debug CMakeFiles/sa.dir/split_array.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\sa.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = sa.exe
+  TARGET_IMPLIB = libsa.dll.a
+  TARGET_PDB = sa.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target IncT
 
 
@@ -73,6 +106,24 @@ build CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/design/2dvector.
   OBJECT_DIR = CMakeFiles\IncT.dir
   OBJECT_FILE_DIR = CMakeFiles\IncT.dir\C_\Users\neha2\CLionProjects\leetcode\design
 
+build CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/grid/count_paths.cpp.obj: CXX_COMPILER__IncT_Debug C$:/Users/neha2/CLionProjects/leetcode/grid/count_paths.cpp || cmake_object_order_depends_target_IncT
+  DEP_FILE = CMakeFiles\IncT.dir\C_\Users\neha2\CLionProjects\leetcode\grid\count_paths.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\IncT.dir
+  OBJECT_FILE_DIR = CMakeFiles\IncT.dir\C_\Users\neha2\CLionProjects\leetcode\grid
+
+build CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/recursion_back_track/valid_parenthesis.cpp.obj: CXX_COMPILER__IncT_Debug C$:/Users/neha2/CLionProjects/leetcode/recursion_back_track/valid_parenthesis.cpp || cmake_object_order_depends_target_IncT
+  DEP_FILE = CMakeFiles\IncT.dir\C_\Users\neha2\CLionProjects\leetcode\recursion_back_track\valid_parenthesis.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\IncT.dir
+  OBJECT_FILE_DIR = CMakeFiles\IncT.dir\C_\Users\neha2\CLionProjects\leetcode\recursion_back_track
+
+build CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/array/sliding_window/sl_sum_k.cpp.obj: CXX_COMPILER__IncT_Debug C$:/Users/neha2/CLionProjects/leetcode/array/sliding_window/sl_sum_k.cpp || cmake_object_order_depends_target_IncT
+  DEP_FILE = CMakeFiles\IncT.dir\C_\Users\neha2\CLionProjects\leetcode\array\sliding_window\sl_sum_k.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\IncT.dir
+  OBJECT_FILE_DIR = CMakeFiles\IncT.dir\C_\Users\neha2\CLionProjects\leetcode\array\sliding_window
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target IncT
@@ -81,7 +132,7 @@ build CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/design/2dvector.
 #############################################
 # Link the executable IncT.exe
 
-build IncT.exe: CXX_EXECUTABLE_LINKER__IncT_Debug CMakeFiles/IncT.dir/increasing_triplet.cpp.obj CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/sliding_window/countandsay.cpp.obj CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/list/odd_even.cpp.obj CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/design/2dvector.cpp.obj
+build IncT.exe: CXX_EXECUTABLE_LINKER__IncT_Debug CMakeFiles/IncT.dir/increasing_triplet.cpp.obj CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/sliding_window/countandsay.cpp.obj CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/list/odd_even.cpp.obj CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/design/2dvector.cpp.obj CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/grid/count_paths.cpp.obj CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/recursion_back_track/valid_parenthesis.cpp.obj CMakeFiles/IncT.dir/C_/Users/neha2/CLionProjects/leetcode/array/sliding_window/sl_sum_k.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\IncT.dir
@@ -157,6 +208,111 @@ build wildcard1.exe: CXX_EXECUTABLE_LINKER__wildcard1_Debug CMakeFiles/wildcard1
   TARGET_IMPLIB = libwildcard1.dll.a
   TARGET_PDB = wildcard1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target regr2
+
+
+#############################################
+# Order-only phony target for regr2
+
+build cmake_object_order_depends_target_regr2: phony || CMakeFiles/regr2.dir
+
+build CMakeFiles/regr2.dir/regular_expression/wildcard_matching.cpp.obj: CXX_COMPILER__regr2_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/regular_expression/wildcard_matching.cpp || cmake_object_order_depends_target_regr2
+  DEP_FILE = CMakeFiles\regr2.dir\regular_expression\wildcard_matching.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\regr2.dir
+  OBJECT_FILE_DIR = CMakeFiles\regr2.dir\regular_expression
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target regr2
+
+
+#############################################
+# Link the executable regr2.exe
+
+build regr2.exe: CXX_EXECUTABLE_LINKER__regr2_Debug CMakeFiles/regr2.dir/regular_expression/wildcard_matching.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\regr2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = regr2.exe
+  TARGET_IMPLIB = libregr2.dll.a
+  TARGET_PDB = regr2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target regr
+
+
+#############################################
+# Order-only phony target for regr
+
+build cmake_object_order_depends_target_regr: phony || CMakeFiles/regr.dir
+
+build CMakeFiles/regr.dir/regular_expression/regular_expr.cpp.obj: CXX_COMPILER__regr_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/regular_expression/regular_expr.cpp || cmake_object_order_depends_target_regr
+  DEP_FILE = CMakeFiles\regr.dir\regular_expression\regular_expr.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\regr.dir
+  OBJECT_FILE_DIR = CMakeFiles\regr.dir\regular_expression
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target regr
+
+
+#############################################
+# Link the executable regr.exe
+
+build regr.exe: CXX_EXECUTABLE_LINKER__regr_Debug CMakeFiles/regr.dir/regular_expression/regular_expr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\regr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = regr.exe
+  TARGET_IMPLIB = libregr.dll.a
+  TARGET_PDB = regr.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hr
+
+
+#############################################
+# Order-only phony target for hr
+
+build cmake_object_order_depends_target_hr: phony || CMakeFiles/hr.dir
+
+build CMakeFiles/hr.dir/house_robber.cpp.obj: CXX_COMPILER__hr_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/house_robber.cpp || cmake_object_order_depends_target_hr
+  DEP_FILE = CMakeFiles\hr.dir\house_robber.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\hr.dir
+  OBJECT_FILE_DIR = CMakeFiles\hr.dir
+
+build CMakeFiles/hr.dir/C_/Users/neha2/CLionProjects/leetcode/line_sweep/rectangle_area.cpp.obj: CXX_COMPILER__hr_Debug C$:/Users/neha2/CLionProjects/leetcode/line_sweep/rectangle_area.cpp || cmake_object_order_depends_target_hr
+  DEP_FILE = CMakeFiles\hr.dir\C_\Users\neha2\CLionProjects\leetcode\line_sweep\rectangle_area.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\hr.dir
+  OBJECT_FILE_DIR = CMakeFiles\hr.dir\C_\Users\neha2\CLionProjects\leetcode\line_sweep
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hr
+
+
+#############################################
+# Link the executable hr.exe
+
+build hr.exe: CXX_EXECUTABLE_LINKER__hr_Debug CMakeFiles/hr.dir/house_robber.cpp.obj CMakeFiles/hr.dir/C_/Users/neha2/CLionProjects/leetcode/line_sweep/rectangle_area.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hr.exe
+  TARGET_IMPLIB = libhr.dll.a
+  TARGET_PDB = hr.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -185,6 +341,14 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build IncT: phony IncT.exe
 
+build hr: phony hr.exe
+
+build regr: phony regr.exe
+
+build regr2: phony regr2.exe
+
+build sa: phony sa.exe
+
 build steps: phony steps.exe
 
 build wildcard1: phony wildcard1.exe
@@ -197,7 +361,7 @@ build wildcard1: phony wildcard1.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug
 
-build all: phony IncT.exe steps.exe wildcard1.exe
+build all: phony sa.exe IncT.exe steps.exe wildcard1.exe regr2.exe regr.exe hr.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

@@ -2,4 +2,5 @@ C:/Users/neha2/CLionProjects/leetcode/design/cmake-build-debug/CMakeFiles/2d.dir
 C:/Users/neha2/CLionProjects/leetcode/design/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/neha2/CLionProjects/leetcode/design/cmake-build-debug/CMakeFiles/trie_dfs.dir
 C:/Users/neha2/CLionProjects/leetcode/design/cmake-build-debug/CMakeFiles/test_new_vector.dir
+C:/Users/neha2/CLionProjects/leetcode/design/cmake-build-debug/CMakeFiles/swd.dir
 C:/Users/neha2/CLionProjects/leetcode/design/cmake-build-debug/CMakeFiles/edit_cache.dir

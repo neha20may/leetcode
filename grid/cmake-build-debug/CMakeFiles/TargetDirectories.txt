@@ -1,5 +1,6 @@
 C:/Users/neha2/CLionProjects/leetcode/grid/cmake-build-debug/CMakeFiles/grid.dir
 C:/Users/neha2/CLionProjects/leetcode/grid/cmake-build-debug/CMakeFiles/mr.dir
 C:/Users/neha2/CLionProjects/leetcode/grid/cmake-build-debug/CMakeFiles/dfs_back_track.dir
+C:/Users/neha2/CLionProjects/leetcode/grid/cmake-build-debug/CMakeFiles/countP.dir
 C:/Users/neha2/CLionProjects/leetcode/grid/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/neha2/CLionProjects/leetcode/grid/cmake-build-debug/CMakeFiles/rebuild_cache.dir
