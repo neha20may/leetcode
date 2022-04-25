@@ -135,6 +135,39 @@ build bs3.exe: CXX_EXECUTABLE_LINKER__bs3_Debug CMakeFiles/bs3.dir/buy_sell/buy_
   TARGET_IMPLIB = libbs3.dll.a
   TARGET_PDB = bs3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target stanza
+
+
+#############################################
+# Order-only phony target for stanza
+
+build cmake_object_order_depends_target_stanza: phony || CMakeFiles/stanza.dir
+
+build CMakeFiles/stanza.dir/median_two_sorted_arrays.cpp.obj: CXX_COMPILER__stanza_Debug C$:/Users/neha2/CLionProjects/leetcode/array/median_two_sorted_arrays.cpp || cmake_object_order_depends_target_stanza
+  DEP_FILE = CMakeFiles\stanza.dir\median_two_sorted_arrays.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\stanza.dir
+  OBJECT_FILE_DIR = CMakeFiles\stanza.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stanza
+
+
+#############################################
+# Link the executable stanza.exe
+
+build stanza.exe: CXX_EXECUTABLE_LINKER__stanza_Debug CMakeFiles/stanza.dir/median_two_sorted_arrays.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stanza.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stanza.exe
+  TARGET_IMPLIB = libstanza.dll.a
+  TARGET_PDB = stanza.exe.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -154,6 +187,8 @@ build bs2: phony bs2.exe
 
 build bs3: phony bs3.exe
 
+build stanza: phony stanza.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -162,7 +197,7 @@ build bs3: phony bs3.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/array/cmake-build-debug
 
-build all: phony bs2.exe bs3.exe
+build all: phony bs2.exe bs3.exe stanza.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
