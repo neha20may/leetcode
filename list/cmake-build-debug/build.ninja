@@ -67,6 +67,18 @@ build CMakeFiles/add_list.dir/link_list.cpp.obj: CXX_COMPILER__add_list_Debug C$
   OBJECT_DIR = CMakeFiles\add_list.dir
   OBJECT_FILE_DIR = CMakeFiles\add_list.dir
 
+build CMakeFiles/add_list.dir/C_/Users/neha2/CLionProjects/leetcode/array/tree_node_remove.cpp.obj: CXX_COMPILER__add_list_Debug C$:/Users/neha2/CLionProjects/leetcode/array/tree_node_remove.cpp || cmake_object_order_depends_target_add_list
+  DEP_FILE = CMakeFiles\add_list.dir\C_\Users\neha2\CLionProjects\leetcode\array\tree_node_remove.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\add_list.dir
+  OBJECT_FILE_DIR = CMakeFiles\add_list.dir\C_\Users\neha2\CLionProjects\leetcode\array
+
+build CMakeFiles/add_list.dir/C_/Users/neha2/CLionProjects/leetcode/tree_graphs/bst_list.cpp.obj: CXX_COMPILER__add_list_Debug C$:/Users/neha2/CLionProjects/leetcode/tree_graphs/bst_list.cpp || cmake_object_order_depends_target_add_list
+  DEP_FILE = CMakeFiles\add_list.dir\C_\Users\neha2\CLionProjects\leetcode\tree_graphs\bst_list.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\add_list.dir
+  OBJECT_FILE_DIR = CMakeFiles\add_list.dir\C_\Users\neha2\CLionProjects\leetcode\tree_graphs
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target add_list
@@ -75,7 +87,7 @@ build CMakeFiles/add_list.dir/link_list.cpp.obj: CXX_COMPILER__add_list_Debug C$
 #############################################
 # Link the executable add_list.exe
 
-build add_list.exe: CXX_EXECUTABLE_LINKER__add_list_Debug CMakeFiles/add_list.dir/link_list.cpp.obj
+build add_list.exe: CXX_EXECUTABLE_LINKER__add_list_Debug CMakeFiles/add_list.dir/link_list.cpp.obj CMakeFiles/add_list.dir/C_/Users/neha2/CLionProjects/leetcode/array/tree_node_remove.cpp.obj CMakeFiles/add_list.dir/C_/Users/neha2/CLionProjects/leetcode/tree_graphs/bst_list.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\add_list.dir
@@ -84,51 +96,6 @@ build add_list.exe: CXX_EXECUTABLE_LINKER__add_list_Debug CMakeFiles/add_list.di
   TARGET_FILE = add_list.exe
   TARGET_IMPLIB = libadd_list.dll.a
   TARGET_PDB = add_list.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target add
-
-
-#############################################
-# Order-only phony target for add
-
-build cmake_object_order_depends_target_add: phony || CMakeFiles/add.dir
-
-build CMakeFiles/add.dir/list.cpp.obj: CXX_COMPILER__add_Debug C$:/Users/neha2/CLionProjects/leetcode/list/list.cpp || cmake_object_order_depends_target_add
-  DEP_FILE = CMakeFiles\add.dir\list.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\add.dir
-  OBJECT_FILE_DIR = CMakeFiles\add.dir
-
-build CMakeFiles/add.dir/C_/Users/neha2/CLionProjects/leetcode/task_scheduling.cpp.obj: CXX_COMPILER__add_Debug C$:/Users/neha2/CLionProjects/leetcode/task_scheduling.cpp || cmake_object_order_depends_target_add
-  DEP_FILE = CMakeFiles\add.dir\C_\Users\neha2\CLionProjects\leetcode\task_scheduling.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\add.dir
-  OBJECT_FILE_DIR = CMakeFiles\add.dir\C_\Users\neha2\CLionProjects\leetcode
-
-build CMakeFiles/add.dir/C_/Users/neha2/CLionProjects/leetcode/tree_graphs/word_lader.cpp.obj: CXX_COMPILER__add_Debug C$:/Users/neha2/CLionProjects/leetcode/tree_graphs/word_lader.cpp || cmake_object_order_depends_target_add
-  DEP_FILE = CMakeFiles\add.dir\C_\Users\neha2\CLionProjects\leetcode\tree_graphs\word_lader.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\add.dir
-  OBJECT_FILE_DIR = CMakeFiles\add.dir\C_\Users\neha2\CLionProjects\leetcode\tree_graphs
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target add
-
-
-#############################################
-# Link the executable add.exe
-
-build add.exe: CXX_EXECUTABLE_LINKER__add_Debug CMakeFiles/add.dir/list.cpp.obj CMakeFiles/add.dir/C_/Users/neha2/CLionProjects/leetcode/task_scheduling.cpp.obj CMakeFiles/add.dir/C_/Users/neha2/CLionProjects/leetcode/tree_graphs/word_lader.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\add.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = add.exe
-  TARGET_IMPLIB = libadd.dll.a
-  TARGET_PDB = add.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target odd_even
@@ -196,6 +163,39 @@ build sort.exe: CXX_EXECUTABLE_LINKER__sort_Debug CMakeFiles/sort.dir/sort_list.
   TARGET_IMPLIB = libsort.dll.a
   TARGET_PDB = sort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target swap
+
+
+#############################################
+# Order-only phony target for swap
+
+build cmake_object_order_depends_target_swap: phony || CMakeFiles/swap.dir
+
+build CMakeFiles/swap.dir/swap.cpp.obj: CXX_COMPILER__swap_Debug C$:/Users/neha2/CLionProjects/leetcode/list/swap.cpp || cmake_object_order_depends_target_swap
+  DEP_FILE = CMakeFiles\swap.dir\swap.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\swap.dir
+  OBJECT_FILE_DIR = CMakeFiles\swap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target swap
+
+
+#############################################
+# Link the executable swap.exe
+
+build swap.exe: CXX_EXECUTABLE_LINKER__swap_Debug CMakeFiles/swap.dir/swap.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\swap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = swap.exe
+  TARGET_IMPLIB = libswap.dll.a
+  TARGET_PDB = swap.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -210,13 +210,13 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # =============================================================================
 # Target aliases.
 
-build add: phony add.exe
-
 build add_list: phony add_list.exe
 
 build odd_even: phony odd_even.exe
 
 build sort: phony sort.exe
+
+build swap: phony swap.exe
 
 # =============================================================================
 # Folder targets.
@@ -226,7 +226,7 @@ build sort: phony sort.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/list/cmake-build-debug
 
-build all: phony add_list.exe add.exe odd_even.exe sort.exe
+build all: phony add_list.exe odd_even.exe sort.exe swap.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

@@ -1,8 +1,21 @@
 # ninja log v5
-4	2526	6716646947025607	CMakeFiles/bs2.dir/buy_sell/buy_sell_2.cpp.obj	893a70652842cbf7
 0	2511	6716657798863482	CMakeFiles/bs3.dir/buy_sell/buy_sell_2.cpp.obj	be72a5db1a4f1d3d
-2526	2721	6716646948925206	bs2.exe	41ed1c38439c536a
+4	2526	6716646947025607	CMakeFiles/bs2.dir/buy_sell/buy_sell_2.cpp.obj	893a70652842cbf7
 4	2355	6716663773925402	CMakeFiles/bs3.dir/buy_sell/buy_asell_3.cpp.obj	67a7805016854cd5
+2526	2721	6716646948925206	bs2.exe	41ed1c38439c536a
+4	2377	6726105210450222	CMakeFiles/dfstree.dir/dfs_tree_sum.cpp.obj	82e78760f69db915
 2356	2540	6716663775755682	bs3.exe	ced5f170b9976f02
+33	3575	6744938306406457	CMakeFiles/bs2.dir/C_/Users/neha2/CLionProjects/leetcode/dp/buy_sell/buy_sell_2.cpp.obj	7f040c89c59f021
 5	2289	6725963582799114	CMakeFiles/stanza.dir/stanza.cpp.obj	846dbb59f4547b61
 2289	2451	6725963584399131	stanza.exe	e5459ae75fa4b63d
+2379	2565	6726105212290192	dfstree.exe	1fa4d6919628c0c6
+4	2336	6727600586367859	CMakeFiles/testyelloew.dir/yellow.ai.cpp.obj	17d2bc453cc0f692
+2337	2499	6727600587954004	testyelloew.exe	8fc2c6f91878e1e4
+21	3424	6744938304876467	CMakeFiles/bs2.dir/C_/Users/neha2/CLionProjects/leetcode/tree_graphs/Tree_Distance_1.cpp.obj	3cc349f1b9da5152
+1	3458	6744938305206461	CMakeFiles/bs2.dir/C_/Users/neha2/CLionProjects/leetcode/dp/buy_sell/buy_sell_cool_down.cpp.obj	1070687b4b7502a3
+24	3547	6744938306126462	CMakeFiles/bs2.dir/C_/Users/neha2/CLionProjects/leetcode/dp/regular_expression/regular_expr.cpp.obj	f45bc30c88a52a04
+1	384	6744938703030884	build.ninja	3f8df34004b3ecd4
+0	2360	6744938727650907	CMakeFiles/wt.dir/water_tapping.cpp.obj	475132be200b169c
+2361	2575	6744938729770879	wt.exe	4c8f06c9de18f59d
+5	2301	6744939202719805	CMakeFiles/wt.dir/water_tapping.cpp.obj	475132be200b169c
+2301	2470	6744939204379826	wt.exe	4c8f06c9de18f59d

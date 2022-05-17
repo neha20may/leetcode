@@ -3,5 +3,7 @@ project(leetcode_tree_graph)
 
 set(CMAKE_CXX_STANDARD 14)
 add_executable(zigzag zigzag.cpp TreeNode.h)
-add_executable(inors inorder_suc.cpp ../grid/dfs_with_backtrack.cpp)
+add_executable(inors inorder_suc.cpp ../grid/dfs_with_backtrack.cpp ../list/swap.cpp)
 add_executable(wl word_lader.cpp)
+add_executable(td1 Tree_Distance_1.cpp)
+add_executable(bst_list bst_list.cpp ../heap/median_stream.cpp)

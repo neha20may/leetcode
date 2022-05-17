@@ -117,6 +117,12 @@ build CMakeFiles/inors.dir/C_/Users/neha2/CLionProjects/leetcode/grid/dfs_with_b
   OBJECT_DIR = CMakeFiles\inors.dir
   OBJECT_FILE_DIR = CMakeFiles\inors.dir\C_\Users\neha2\CLionProjects\leetcode\grid
 
+build CMakeFiles/inors.dir/C_/Users/neha2/CLionProjects/leetcode/list/swap.cpp.obj: CXX_COMPILER__inors_Debug C$:/Users/neha2/CLionProjects/leetcode/list/swap.cpp || cmake_object_order_depends_target_inors
+  DEP_FILE = CMakeFiles\inors.dir\C_\Users\neha2\CLionProjects\leetcode\list\swap.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\inors.dir
+  OBJECT_FILE_DIR = CMakeFiles\inors.dir\C_\Users\neha2\CLionProjects\leetcode\list
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target inors
@@ -125,7 +131,7 @@ build CMakeFiles/inors.dir/C_/Users/neha2/CLionProjects/leetcode/grid/dfs_with_b
 #############################################
 # Link the executable inors.exe
 
-build inors.exe: CXX_EXECUTABLE_LINKER__inors_Debug CMakeFiles/inors.dir/inorder_suc.cpp.obj CMakeFiles/inors.dir/C_/Users/neha2/CLionProjects/leetcode/grid/dfs_with_backtrack.cpp.obj
+build inors.exe: CXX_EXECUTABLE_LINKER__inors_Debug CMakeFiles/inors.dir/inorder_suc.cpp.obj CMakeFiles/inors.dir/C_/Users/neha2/CLionProjects/leetcode/grid/dfs_with_backtrack.cpp.obj CMakeFiles/inors.dir/C_/Users/neha2/CLionProjects/leetcode/list/swap.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\inors.dir
@@ -169,9 +175,85 @@ build wl.exe: CXX_EXECUTABLE_LINKER__wl_Debug CMakeFiles/wl.dir/word_lader.cpp.o
   TARGET_PDB = wl.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target td1
+
+
+#############################################
+# Order-only phony target for td1
+
+build cmake_object_order_depends_target_td1: phony || CMakeFiles/td1.dir
+
+build CMakeFiles/td1.dir/Tree_Distance_1.cpp.obj: CXX_COMPILER__td1_Debug C$:/Users/neha2/CLionProjects/leetcode/tree_graphs/Tree_Distance_1.cpp || cmake_object_order_depends_target_td1
+  DEP_FILE = CMakeFiles\td1.dir\Tree_Distance_1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\td1.dir
+  OBJECT_FILE_DIR = CMakeFiles\td1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target td1
+
+
+#############################################
+# Link the executable td1.exe
+
+build td1.exe: CXX_EXECUTABLE_LINKER__td1_Debug CMakeFiles/td1.dir/Tree_Distance_1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\td1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = td1.exe
+  TARGET_IMPLIB = libtd1.dll.a
+  TARGET_PDB = td1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bst_list
+
+
+#############################################
+# Order-only phony target for bst_list
+
+build cmake_object_order_depends_target_bst_list: phony || CMakeFiles/bst_list.dir
+
+build CMakeFiles/bst_list.dir/bst_list.cpp.obj: CXX_COMPILER__bst_list_Debug C$:/Users/neha2/CLionProjects/leetcode/tree_graphs/bst_list.cpp || cmake_object_order_depends_target_bst_list
+  DEP_FILE = CMakeFiles\bst_list.dir\bst_list.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\bst_list.dir
+  OBJECT_FILE_DIR = CMakeFiles\bst_list.dir
+
+build CMakeFiles/bst_list.dir/C_/Users/neha2/CLionProjects/leetcode/heap/median_stream.cpp.obj: CXX_COMPILER__bst_list_Debug C$:/Users/neha2/CLionProjects/leetcode/heap/median_stream.cpp || cmake_object_order_depends_target_bst_list
+  DEP_FILE = CMakeFiles\bst_list.dir\C_\Users\neha2\CLionProjects\leetcode\heap\median_stream.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\bst_list.dir
+  OBJECT_FILE_DIR = CMakeFiles\bst_list.dir\C_\Users\neha2\CLionProjects\leetcode\heap
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bst_list
+
+
+#############################################
+# Link the executable bst_list.exe
+
+build bst_list.exe: CXX_EXECUTABLE_LINKER__bst_list_Debug CMakeFiles/bst_list.dir/bst_list.cpp.obj CMakeFiles/bst_list.dir/C_/Users/neha2/CLionProjects/leetcode/heap/median_stream.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bst_list.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bst_list.exe
+  TARGET_IMPLIB = libbst_list.dll.a
+  TARGET_PDB = bst_list.exe.dbg
+
+# =============================================================================
 # Target aliases.
 
+build bst_list: phony bst_list.exe
+
 build inors: phony inors.exe
+
+build td1: phony td1.exe
 
 build wl: phony wl.exe
 
@@ -185,7 +267,7 @@ build zigzag: phony zigzag.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/tree_graphs/cmake-build-debug
 
-build all: phony zigzag.exe inors.exe wl.exe
+build all: phony zigzag.exe inors.exe wl.exe td1.exe bst_list.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,5 +1,10 @@
 # ninja log v5
-4	2136	6683632675566536	CMakeFiles/odd_even.dir/odd_even.cpp.obj	43b44b24a9cc5465
-4	3719	6693986349875022	CMakeFiles/sort.dir/sort_list.cpp.obj	5770c2a647c6836e
 3719	3926	6693986351915015	sort.exe	a3953383922ba019
+28	4601	6734591088648383	CMakeFiles/add.dir/C_/Users/neha2/CLionProjects/leetcode/tree_graphs/word_lader.cpp.obj	59ee9b987701fc0
+4	3719	6693986349875022	CMakeFiles/sort.dir/sort_list.cpp.obj	5770c2a647c6836e
+4	2136	6683632675566536	CMakeFiles/odd_even.dir/odd_even.cpp.obj	43b44b24a9cc5465
 2137	2288	6683632677056538	odd_even.exe	8e1a464d6db3cb2c
+1	2717	6734591069819866	CMakeFiles/add.dir/list.cpp.obj	b5e494a33e83e81a
+25	2731	6734591069959869	CMakeFiles/add.dir/C_/Users/neha2/CLionProjects/leetcode/task_scheduling.cpp.obj	6c47074454a8f700
+5	2292	6738247917245712	CMakeFiles/swap.dir/swap.cpp.obj	10b552fd7e772672
+2293	2458	6738247918926149	swap.exe	90f000c19d12f2c0

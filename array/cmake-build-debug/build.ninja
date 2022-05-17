@@ -40,100 +40,71 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/neha2/CLionProjects/leetcode/array/cmake-build-debug/
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\neha2\CLionProjects\leetcode\array\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
 # =============================================================================
-# Object build statements for EXECUTABLE target bs2
+# Object build statements for EXECUTABLE target testyelloew
 
 
 #############################################
-# Order-only phony target for bs2
+# Order-only phony target for testyelloew
 
-build cmake_object_order_depends_target_bs2: phony || CMakeFiles/bs2.dir
+build cmake_object_order_depends_target_testyelloew: phony || CMakeFiles/testyelloew.dir
 
-build CMakeFiles/bs2.dir/buy_sell/buy_sell_2.cpp.obj: CXX_COMPILER__bs2_Debug C$:/Users/neha2/CLionProjects/leetcode/array/buy_sell/buy_sell_2.cpp || cmake_object_order_depends_target_bs2
-  DEP_FILE = CMakeFiles\bs2.dir\buy_sell\buy_sell_2.cpp.obj.d
+build CMakeFiles/testyelloew.dir/yellow.ai.cpp.obj: CXX_COMPILER__testyelloew_Debug C$:/Users/neha2/CLionProjects/leetcode/array/yellow.ai.cpp || cmake_object_order_depends_target_testyelloew
+  DEP_FILE = CMakeFiles\testyelloew.dir\yellow.ai.cpp.obj.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles\bs2.dir
-  OBJECT_FILE_DIR = CMakeFiles\bs2.dir\buy_sell
-
-build CMakeFiles/bs2.dir/buy_sell/but_sell4.cpp.obj: CXX_COMPILER__bs2_Debug C$:/Users/neha2/CLionProjects/leetcode/array/buy_sell/but_sell4.cpp || cmake_object_order_depends_target_bs2
-  DEP_FILE = CMakeFiles\bs2.dir\buy_sell\but_sell4.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\bs2.dir
-  OBJECT_FILE_DIR = CMakeFiles\bs2.dir\buy_sell
-
-build CMakeFiles/bs2.dir/buy_sell/buy_sell_cool_down.cpp.obj: CXX_COMPILER__bs2_Debug C$:/Users/neha2/CLionProjects/leetcode/array/buy_sell/buy_sell_cool_down.cpp || cmake_object_order_depends_target_bs2
-  DEP_FILE = CMakeFiles\bs2.dir\buy_sell\buy_sell_cool_down.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\bs2.dir
-  OBJECT_FILE_DIR = CMakeFiles\bs2.dir\buy_sell
-
-build CMakeFiles/bs2.dir/C_/Users/neha2/CLionProjects/leetcode/dp/regular_expression/regular_expr.cpp.obj: CXX_COMPILER__bs2_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/regular_expression/regular_expr.cpp || cmake_object_order_depends_target_bs2
-  DEP_FILE = CMakeFiles\bs2.dir\C_\Users\neha2\CLionProjects\leetcode\dp\regular_expression\regular_expr.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\bs2.dir
-  OBJECT_FILE_DIR = CMakeFiles\bs2.dir\C_\Users\neha2\CLionProjects\leetcode\dp\regular_expression
+  OBJECT_DIR = CMakeFiles\testyelloew.dir
+  OBJECT_FILE_DIR = CMakeFiles\testyelloew.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target bs2
+# Link build statements for EXECUTABLE target testyelloew
 
 
 #############################################
-# Link the executable bs2.exe
+# Link the executable testyelloew.exe
 
-build bs2.exe: CXX_EXECUTABLE_LINKER__bs2_Debug CMakeFiles/bs2.dir/buy_sell/buy_sell_2.cpp.obj CMakeFiles/bs2.dir/buy_sell/but_sell4.cpp.obj CMakeFiles/bs2.dir/buy_sell/buy_sell_cool_down.cpp.obj CMakeFiles/bs2.dir/C_/Users/neha2/CLionProjects/leetcode/dp/regular_expression/regular_expr.cpp.obj
+build testyelloew.exe: CXX_EXECUTABLE_LINKER__testyelloew_Debug CMakeFiles/testyelloew.dir/yellow.ai.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\bs2.dir
+  OBJECT_DIR = CMakeFiles\testyelloew.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = bs2.exe
-  TARGET_IMPLIB = libbs2.dll.a
-  TARGET_PDB = bs2.exe.dbg
+  TARGET_FILE = testyelloew.exe
+  TARGET_IMPLIB = libtestyelloew.dll.a
+  TARGET_PDB = testyelloew.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target bs3
+# Object build statements for EXECUTABLE target dfstree
 
 
 #############################################
-# Order-only phony target for bs3
+# Order-only phony target for dfstree
 
-build cmake_object_order_depends_target_bs3: phony || CMakeFiles/bs3.dir
+build cmake_object_order_depends_target_dfstree: phony || CMakeFiles/dfstree.dir
 
-build CMakeFiles/bs3.dir/buy_sell/buy_asell_3.cpp.obj: CXX_COMPILER__bs3_Debug C$:/Users/neha2/CLionProjects/leetcode/array/buy_sell/buy_asell_3.cpp || cmake_object_order_depends_target_bs3
-  DEP_FILE = CMakeFiles\bs3.dir\buy_sell\buy_asell_3.cpp.obj.d
+build CMakeFiles/dfstree.dir/dfs_tree_sum.cpp.obj: CXX_COMPILER__dfstree_Debug C$:/Users/neha2/CLionProjects/leetcode/array/dfs_tree_sum.cpp || cmake_object_order_depends_target_dfstree
+  DEP_FILE = CMakeFiles\dfstree.dir\dfs_tree_sum.cpp.obj.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles\bs3.dir
-  OBJECT_FILE_DIR = CMakeFiles\bs3.dir\buy_sell
+  OBJECT_DIR = CMakeFiles\dfstree.dir
+  OBJECT_FILE_DIR = CMakeFiles\dfstree.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target bs3
+# Link build statements for EXECUTABLE target dfstree
 
 
 #############################################
-# Link the executable bs3.exe
+# Link the executable dfstree.exe
 
-build bs3.exe: CXX_EXECUTABLE_LINKER__bs3_Debug CMakeFiles/bs3.dir/buy_sell/buy_asell_3.cpp.obj
+build dfstree.exe: CXX_EXECUTABLE_LINKER__dfstree_Debug CMakeFiles/dfstree.dir/dfs_tree_sum.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\bs3.dir
+  OBJECT_DIR = CMakeFiles\dfstree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = bs3.exe
-  TARGET_IMPLIB = libbs3.dll.a
-  TARGET_PDB = bs3.exe.dbg
+  TARGET_FILE = dfstree.exe
+  TARGET_IMPLIB = libdfstree.dll.a
+  TARGET_PDB = dfstree.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target stanza
@@ -150,6 +121,18 @@ build CMakeFiles/stanza.dir/median_two_sorted_arrays.cpp.obj: CXX_COMPILER__stan
   OBJECT_DIR = CMakeFiles\stanza.dir
   OBJECT_FILE_DIR = CMakeFiles\stanza.dir
 
+build CMakeFiles/stanza.dir/dfs_tree_sum.cpp.obj: CXX_COMPILER__stanza_Debug C$:/Users/neha2/CLionProjects/leetcode/array/dfs_tree_sum.cpp || cmake_object_order_depends_target_stanza
+  DEP_FILE = CMakeFiles\stanza.dir\dfs_tree_sum.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\stanza.dir
+  OBJECT_FILE_DIR = CMakeFiles\stanza.dir
+
+build CMakeFiles/stanza.dir/yellow.ai.cpp.obj: CXX_COMPILER__stanza_Debug C$:/Users/neha2/CLionProjects/leetcode/array/yellow.ai.cpp || cmake_object_order_depends_target_stanza
+  DEP_FILE = CMakeFiles\stanza.dir\yellow.ai.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\stanza.dir
+  OBJECT_FILE_DIR = CMakeFiles\stanza.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target stanza
@@ -158,7 +141,7 @@ build CMakeFiles/stanza.dir/median_two_sorted_arrays.cpp.obj: CXX_COMPILER__stan
 #############################################
 # Link the executable stanza.exe
 
-build stanza.exe: CXX_EXECUTABLE_LINKER__stanza_Debug CMakeFiles/stanza.dir/median_two_sorted_arrays.cpp.obj
+build stanza.exe: CXX_EXECUTABLE_LINKER__stanza_Debug CMakeFiles/stanza.dir/median_two_sorted_arrays.cpp.obj CMakeFiles/stanza.dir/dfs_tree_sum.cpp.obj CMakeFiles/stanza.dir/yellow.ai.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\stanza.dir
@@ -167,6 +150,50 @@ build stanza.exe: CXX_EXECUTABLE_LINKER__stanza_Debug CMakeFiles/stanza.dir/medi
   TARGET_FILE = stanza.exe
   TARGET_IMPLIB = libstanza.dll.a
   TARGET_PDB = stanza.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wt
+
+
+#############################################
+# Order-only phony target for wt
+
+build cmake_object_order_depends_target_wt: phony || CMakeFiles/wt.dir
+
+build CMakeFiles/wt.dir/water_tapping.cpp.obj: CXX_COMPILER__wt_Debug C$:/Users/neha2/CLionProjects/leetcode/array/water_tapping.cpp || cmake_object_order_depends_target_wt
+  DEP_FILE = CMakeFiles\wt.dir\water_tapping.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\wt.dir
+  OBJECT_FILE_DIR = CMakeFiles\wt.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wt
+
+
+#############################################
+# Link the executable wt.exe
+
+build wt.exe: CXX_EXECUTABLE_LINKER__wt_Debug CMakeFiles/wt.dir/water_tapping.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\wt.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = wt.exe
+  TARGET_IMPLIB = libwt.dll.a
+  TARGET_PDB = wt.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\neha2\CLionProjects\leetcode\array\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
 
 
 #############################################
@@ -183,11 +210,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build bs2: phony bs2.exe
-
-build bs3: phony bs3.exe
+build dfstree: phony dfstree.exe
 
 build stanza: phony stanza.exe
+
+build testyelloew: phony testyelloew.exe
+
+build wt: phony wt.exe
 
 # =============================================================================
 # Folder targets.
@@ -197,7 +226,7 @@ build stanza: phony stanza.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/array/cmake-build-debug
 
-build all: phony bs2.exe bs3.exe stanza.exe
+build all: phony testyelloew.exe dfstree.exe stanza.exe wt.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
