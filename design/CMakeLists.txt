@@ -1,4 +1,5 @@
-add_executable(2d 2dvector.cpp ../no_to_string.cpp test_new_vector.cpp ../recursion_back_track/remove_invalid_paren.cpp segement_word_dict.cpp ../dp/split_array.cpp)
+add_executable(2d 2dvector.cpp ../no_to_string.cpp test_new_vector.cpp ../recursion_back_track/remove_invalid_paren.cpp segement_word_dict.cpp ../dp/split_array.cpp LFU.cpp LFU.h ../dp_tree/subordinates.cpp ../dp_tree/subordinates.h ../dp_tree/kartik_sub.cpp ../dp_tree/kartik_sub.h)
 add_executable(trie_dfs trie_dfs.cpp)
 add_executable(test_new_vector test_new_vector.cpp)
 add_executable(swd segement_word_dict.cpp)
+add_executable(LRU LRU.cpp)

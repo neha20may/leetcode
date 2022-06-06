@@ -3,7 +3,7 @@
 //
 #include <bits/stdc++.h>
 using namespace std;
-class Solution {
+class subordinates {
 public:
     vector<vector<vector<int>>> mem;
     int sum(int s, int e, vector<int> &nums){
@@ -55,7 +55,7 @@ public:
     }
 };
 int main(){
-    Solution sl;
+    subordinates sl;
     vector<int> v={7,2,5,10,8};
     sl.splitArray(v, 2);
 }

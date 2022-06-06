@@ -1,92 +1,90 @@
-//
-// Created by neha2 on 02-04-2022.
-//
 #include <bits/stdc++.h>
-using namespace  std;
-class Solution {
+
+using namespace std;
+
+class subordinates {
 public:
-    int getRemovalCount(string s){
-        stack<char> st;
-        for(auto c: s){
-            if(c=='(')
-                st.push(c);
-            else{
-                if(c==')'){
-                    if(st.size()==0)
-                        st.push(c);
-                    else if(st.top()=='(')
-                        st.pop();
-                    else if(st.top()==')')
-                        st.push(c);
+    vector<string> ans;
+
+    int minimumRemoval(string s) {
+        stack<int> st;
+        string ans = "";
+        for (int i = 0; i < s.size(); i++) {
+            char c = s[i];
+            if (c == '(')
+                st.push(i);
+            else if (c == ')') {
+                if (st.empty()) {
+                    st.push(i);
+                } else if (s[st.top()] == '(') {
+                    st.pop();
+
+                } else {
+                    st.push(i);
+
                 }
             }
         }
         return st.size();
     }
-    void remove(string s, int min, unordered_set<string> &ans, int leftC, int rightC){
-        // cout<<"remove s inout "<<s<<endl;
-        if(min==0){
-            if(getRemovalCount(s)==0){
-                ans.insert(s);
+
+
+
+    void dfs(int index, string s, int count, int open, string temp ) {
+        if(count<0)
+            return;
+
+        //The below condition sucked my blood and last 5 test cases failed. ;-(
+        //The condition says if the brackets to be removed are more than the string remaining, return;
+        if(count> s.size()-index)
+            return;
+        if(index==s.size()){
+            if(count==0 && open==0){
+                ans.push_back(temp);
                 return;
             }
             return;
         }
-        int n=s.size();
-        for(int i=0;i<n; i++){
-            if(s[i]=='(')
-                leftC--;
-            if(s[i]==')')
-                rightC--;
-            // cout<<"i "<<i<<" char at i "<<s[i]<<endl;
-            if(s[i]!='(' and s[i]!=')')
-                continue;
-            //aplly rule: check if right_count < left_count. If this is the case then only we consider that right parenthesis and recurse further.
-            string left=s.substr(0, i);
-            string right=s.substr(i+1);
-            if(s[i]==')' and right<left)
-                remove(left+right, min-1, ans, leftC, rightC);
-            else
-                if(s[i]=='(')
-                    remove(left+right, min-1, ans, leftC, rightC);
+
+
+
+        char c=s[index];
+        if(c=='('){
+            //remove
+            dfs(index+1, s, count-1, open, temp);
+            //keep
+            dfs(index+1, s, count, open+1, temp+c);
+
+
+        }else if(c==')'){
+            //only keep if open before it
+            //remove
+            dfs(index+1, s, count-1, open, temp); //? count+1
+            if(open>0){
+                dfs(index+1, s, count, open-1, temp+c);
+            }
+
+        }else{
+            dfs(index+1, s, count, open, temp+c);
         }
+
     }
-    int getleft(string s){
-        int count=0;
-        for(int i=0;i<s.length();i++){
-            if(s[i]=='(')
-                count++;
-        }
-        return count;
-    }
-    int getright(string s){
-        int count=0;
-        for(int i=0;i<s.length();i++){
-            if(s[i]==')')
-                count++;
-        }
-        return count;
-    }
+
     vector<string> removeInvalidParentheses(string s) {
-        if(s.length()==1){
-            if(s==")" or s=="(")
-                return vector<string>(1,"");
-            else
-                return vector<string>(1,s);
-        }
-        int mr=getRemovalCount(s);
-        int left=getleft(s);
-        int right=getright(s);
-        // cout<<"mr "<<mr<<endl;
-        unordered_set<string> ans;
-        remove(s, mr, ans, left, right);
-        return vector<string>(ans.begin(), ans.end());
+        int count = minimumRemoval(s);
+        dfs(0, s, count, 0, "");
+        unordered_set<string> final_ans(ans.begin(), ans.end());
+        vector<string> vf(final_ans.begin(), final_ans.end());
+        return vf;
     }
 };
-int main(){
-    string s = "()())()";
-    Solution a;
-    vector<string> ans=a.removeInvalidParentheses(s);
-    for(auto s: ans)
-    cout<<s<<" ";
+
+int main() {
+    subordinates s;
+    string s1 = "()())()";
+    vector<string> ans = s.removeInvalidParentheses(s1);
+    for (auto x: ans) {
+        cout << x << endl;
+    }
+    return 0;
 }

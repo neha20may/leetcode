@@ -17,7 +17,7 @@ Step 4). At the end of the exploration, we revert the cell back to its original 
 using namespace std;
 
 class Solution {
-    bool ans;
+    vector<basic_string<char>> ans;
 public:
     void dfs(vector<vector<char>> &board, int i, int j, string word, int count) {
         if (count == 0) {

@@ -7,3 +7,4 @@ add_executable(inors inorder_suc.cpp ../grid/dfs_with_backtrack.cpp ../list/swap
 add_executable(wl word_lader.cpp)
 add_executable(td1 Tree_Distance_1.cpp)
 add_executable(bst_list bst_list.cpp ../heap/median_stream.cpp)
+add_executable(ri reconstruct_itinery2.cpp)

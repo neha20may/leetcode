@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class Solution {
+class subordinates {
     class Node{
     public:
         char value;
@@ -135,7 +135,7 @@ int main() {
             {'i', 'f', 'l', 'v'}
     };
     vector<string> words = {"eat", "oath", "oat", "oa"};
-    Solution s;
+    subordinates s;
     auto ans = s.findWords(board, words);
     for (string a: ans) {
         cout << " " << a;
