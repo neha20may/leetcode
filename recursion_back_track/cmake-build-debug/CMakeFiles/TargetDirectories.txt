@@ -5,4 +5,5 @@ C:/Users/neha2/CLionProjects/leetcode/recursion_back_track/cmake-build-debug/CMa
 C:/Users/neha2/CLionProjects/leetcode/recursion_back_track/cmake-build-debug/CMakeFiles/perm.dir
 C:/Users/neha2/CLionProjects/leetcode/recursion_back_track/cmake-build-debug/CMakeFiles/ws.dir
 C:/Users/neha2/CLionProjects/leetcode/recursion_back_track/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/neha2/CLionProjects/leetcode/recursion_back_track/cmake-build-debug/CMakeFiles/lp1.dir
 C:/Users/neha2/CLionProjects/leetcode/recursion_back_track/cmake-build-debug/CMakeFiles/rebuild_cache.dir

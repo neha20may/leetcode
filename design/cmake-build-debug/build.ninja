@@ -85,6 +85,24 @@ build CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/dp/split_array.cpp
   OBJECT_DIR = CMakeFiles\2d.dir
   OBJECT_FILE_DIR = CMakeFiles\2d.dir\C_\Users\neha2\CLionProjects\leetcode\dp
 
+build CMakeFiles/2d.dir/LFU.cpp.obj: CXX_COMPILER__2d_Debug C$:/Users/neha2/CLionProjects/leetcode/design/LFU.cpp || cmake_object_order_depends_target_2d
+  DEP_FILE = CMakeFiles\2d.dir\LFU.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\2d.dir
+  OBJECT_FILE_DIR = CMakeFiles\2d.dir
+
+build CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/dp_tree/subordinates.cpp.obj: CXX_COMPILER__2d_Debug C$:/Users/neha2/CLionProjects/leetcode/dp_tree/subordinates.cpp || cmake_object_order_depends_target_2d
+  DEP_FILE = CMakeFiles\2d.dir\C_\Users\neha2\CLionProjects\leetcode\dp_tree\subordinates.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\2d.dir
+  OBJECT_FILE_DIR = CMakeFiles\2d.dir\C_\Users\neha2\CLionProjects\leetcode\dp_tree
+
+build CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/dp_tree/kartik_sub.cpp.obj: CXX_COMPILER__2d_Debug C$:/Users/neha2/CLionProjects/leetcode/dp_tree/kartik_sub.cpp || cmake_object_order_depends_target_2d
+  DEP_FILE = CMakeFiles\2d.dir\C_\Users\neha2\CLionProjects\leetcode\dp_tree\kartik_sub.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\2d.dir
+  OBJECT_FILE_DIR = CMakeFiles\2d.dir\C_\Users\neha2\CLionProjects\leetcode\dp_tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 2d
@@ -93,7 +111,7 @@ build CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/dp/split_array.cpp
 #############################################
 # Link the executable 2d.exe
 
-build 2d.exe: CXX_EXECUTABLE_LINKER__2d_Debug CMakeFiles/2d.dir/2dvector.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/no_to_string.cpp.obj CMakeFiles/2d.dir/test_new_vector.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/recursion_back_track/remove_invalid_paren.cpp.obj CMakeFiles/2d.dir/segement_word_dict.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/dp/split_array.cpp.obj
+build 2d.exe: CXX_EXECUTABLE_LINKER__2d_Debug CMakeFiles/2d.dir/2dvector.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/no_to_string.cpp.obj CMakeFiles/2d.dir/test_new_vector.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/recursion_back_track/remove_invalid_paren.cpp.obj CMakeFiles/2d.dir/segement_word_dict.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/dp/split_array.cpp.obj CMakeFiles/2d.dir/LFU.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/dp_tree/subordinates.cpp.obj CMakeFiles/2d.dir/C_/Users/neha2/CLionProjects/leetcode/dp_tree/kartik_sub.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\2d.dir
@@ -147,6 +165,39 @@ build trie_dfs.exe: CXX_EXECUTABLE_LINKER__trie_dfs_Debug CMakeFiles/trie_dfs.di
   TARGET_FILE = trie_dfs.exe
   TARGET_IMPLIB = libtrie_dfs.dll.a
   TARGET_PDB = trie_dfs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LRU
+
+
+#############################################
+# Order-only phony target for LRU
+
+build cmake_object_order_depends_target_LRU: phony || CMakeFiles/LRU.dir
+
+build CMakeFiles/LRU.dir/LRU.cpp.obj: CXX_COMPILER__LRU_Debug C$:/Users/neha2/CLionProjects/leetcode/design/LRU.cpp || cmake_object_order_depends_target_LRU
+  DEP_FILE = CMakeFiles\LRU.dir\LRU.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\LRU.dir
+  OBJECT_FILE_DIR = CMakeFiles\LRU.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LRU
+
+
+#############################################
+# Link the executable LRU.exe
+
+build LRU.exe: CXX_EXECUTABLE_LINKER__LRU_Debug CMakeFiles/LRU.dir/LRU.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LRU.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LRU.exe
+  TARGET_IMPLIB = libLRU.dll.a
+  TARGET_PDB = LRU.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_new_vector
@@ -230,6 +281,8 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build 2d: phony 2d.exe
 
+build LRU: phony LRU.exe
+
 build swd: phony swd.exe
 
 build test_new_vector: phony test_new_vector.exe
@@ -244,7 +297,7 @@ build trie_dfs: phony trie_dfs.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/design/cmake-build-debug
 
-build all: phony 2d.exe trie_dfs.exe test_new_vector.exe swd.exe
+build all: phony 2d.exe trie_dfs.exe LRU.exe test_new_vector.exe swd.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

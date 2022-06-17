@@ -3,5 +3,6 @@ C:/Users/neha2/CLionProjects/leetcode/tree_graphs/cmake-build-debug/CMakeFiles/z
 C:/Users/neha2/CLionProjects/leetcode/tree_graphs/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/neha2/CLionProjects/leetcode/tree_graphs/cmake-build-debug/CMakeFiles/inors.dir
 C:/Users/neha2/CLionProjects/leetcode/tree_graphs/cmake-build-debug/CMakeFiles/wl.dir
+C:/Users/neha2/CLionProjects/leetcode/tree_graphs/cmake-build-debug/CMakeFiles/ri.dir
 C:/Users/neha2/CLionProjects/leetcode/tree_graphs/cmake-build-debug/CMakeFiles/td1.dir
 C:/Users/neha2/CLionProjects/leetcode/tree_graphs/cmake-build-debug/CMakeFiles/bst_list.dir

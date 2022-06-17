@@ -295,6 +295,18 @@ build CMakeFiles/hr.dir/C_/Users/neha2/CLionProjects/leetcode/line_sweep/rectang
   OBJECT_DIR = CMakeFiles\hr.dir
   OBJECT_FILE_DIR = CMakeFiles\hr.dir\C_\Users\neha2\CLionProjects\leetcode\line_sweep
 
+build CMakeFiles/hr.dir/lcsubstring.cpp.obj: CXX_COMPILER__hr_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/lcsubstring.cpp || cmake_object_order_depends_target_hr
+  DEP_FILE = CMakeFiles\hr.dir\lcsubstring.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\hr.dir
+  OBJECT_FILE_DIR = CMakeFiles\hr.dir
+
+build CMakeFiles/hr.dir/coin_change_2.cpp.obj: CXX_COMPILER__hr_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/coin_change_2.cpp || cmake_object_order_depends_target_hr
+  DEP_FILE = CMakeFiles\hr.dir\coin_change_2.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\hr.dir
+  OBJECT_FILE_DIR = CMakeFiles\hr.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target hr
@@ -303,7 +315,7 @@ build CMakeFiles/hr.dir/C_/Users/neha2/CLionProjects/leetcode/line_sweep/rectang
 #############################################
 # Link the executable hr.exe
 
-build hr.exe: CXX_EXECUTABLE_LINKER__hr_Debug CMakeFiles/hr.dir/house_robber.cpp.obj CMakeFiles/hr.dir/C_/Users/neha2/CLionProjects/leetcode/line_sweep/rectangle_area.cpp.obj
+build hr.exe: CXX_EXECUTABLE_LINKER__hr_Debug CMakeFiles/hr.dir/house_robber.cpp.obj CMakeFiles/hr.dir/C_/Users/neha2/CLionProjects/leetcode/line_sweep/rectangle_area.cpp.obj CMakeFiles/hr.dir/lcsubstring.cpp.obj CMakeFiles/hr.dir/coin_change_2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\hr.dir
@@ -312,6 +324,105 @@ build hr.exe: CXX_EXECUTABLE_LINKER__hr_Debug CMakeFiles/hr.dir/house_robber.cpp
   TARGET_FILE = hr.exe
   TARGET_IMPLIB = libhr.dll.a
   TARGET_PDB = hr.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target odd_even_sum
+
+
+#############################################
+# Order-only phony target for odd_even_sum
+
+build cmake_object_order_depends_target_odd_even_sum: phony || CMakeFiles/odd_even_sum.dir
+
+build CMakeFiles/odd_even_sum.dir/odd_even_sum.cpp.obj: CXX_COMPILER__odd_even_sum_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/odd_even_sum.cpp || cmake_object_order_depends_target_odd_even_sum
+  DEP_FILE = CMakeFiles\odd_even_sum.dir\odd_even_sum.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\odd_even_sum.dir
+  OBJECT_FILE_DIR = CMakeFiles\odd_even_sum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target odd_even_sum
+
+
+#############################################
+# Link the executable odd_even_sum.exe
+
+build odd_even_sum.exe: CXX_EXECUTABLE_LINKER__odd_even_sum_Debug CMakeFiles/odd_even_sum.dir/odd_even_sum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\odd_even_sum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = odd_even_sum.exe
+  TARGET_IMPLIB = libodd_even_sum.dll.a
+  TARGET_PDB = odd_even_sum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lcstrin
+
+
+#############################################
+# Order-only phony target for lcstrin
+
+build cmake_object_order_depends_target_lcstrin: phony || CMakeFiles/lcstrin.dir
+
+build CMakeFiles/lcstrin.dir/lcsubstring.cpp.obj: CXX_COMPILER__lcstrin_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/lcsubstring.cpp || cmake_object_order_depends_target_lcstrin
+  DEP_FILE = CMakeFiles\lcstrin.dir\lcsubstring.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\lcstrin.dir
+  OBJECT_FILE_DIR = CMakeFiles\lcstrin.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lcstrin
+
+
+#############################################
+# Link the executable lcstrin.exe
+
+build lcstrin.exe: CXX_EXECUTABLE_LINKER__lcstrin_Debug CMakeFiles/lcstrin.dir/lcsubstring.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lcstrin.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lcstrin.exe
+  TARGET_IMPLIB = liblcstrin.dll.a
+  TARGET_PDB = lcstrin.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target coin_change2
+
+
+#############################################
+# Order-only phony target for coin_change2
+
+build cmake_object_order_depends_target_coin_change2: phony || CMakeFiles/coin_change2.dir
+
+build CMakeFiles/coin_change2.dir/coin_change_2.cpp.obj: CXX_COMPILER__coin_change2_Debug C$:/Users/neha2/CLionProjects/leetcode/dp/coin_change_2.cpp || cmake_object_order_depends_target_coin_change2
+  DEP_FILE = CMakeFiles\coin_change2.dir\coin_change_2.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\coin_change2.dir
+  OBJECT_FILE_DIR = CMakeFiles\coin_change2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target coin_change2
+
+
+#############################################
+# Link the executable coin_change2.exe
+
+build coin_change2.exe: CXX_EXECUTABLE_LINKER__coin_change2_Debug CMakeFiles/coin_change2.dir/coin_change_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\coin_change2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = coin_change2.exe
+  TARGET_IMPLIB = libcoin_change2.dll.a
+  TARGET_PDB = coin_change2.exe.dbg
 
 
 #############################################
@@ -341,7 +452,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build IncT: phony IncT.exe
 
+build coin_change2: phony coin_change2.exe
+
 build hr: phony hr.exe
+
+build lcstrin: phony lcstrin.exe
+
+build odd_even_sum: phony odd_even_sum.exe
 
 build regr: phony regr.exe
 
@@ -361,7 +478,7 @@ build wildcard1: phony wildcard1.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug
 
-build all: phony sa.exe IncT.exe steps.exe wildcard1.exe regr2.exe regr.exe hr.exe
+build all: phony sa.exe IncT.exe steps.exe wildcard1.exe regr2.exe regr.exe hr.exe odd_even_sum.exe lcstrin.exe coin_change2.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

@@ -175,6 +175,39 @@ build wl.exe: CXX_EXECUTABLE_LINKER__wl_Debug CMakeFiles/wl.dir/word_lader.cpp.o
   TARGET_PDB = wl.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ri
+
+
+#############################################
+# Order-only phony target for ri
+
+build cmake_object_order_depends_target_ri: phony || CMakeFiles/ri.dir
+
+build CMakeFiles/ri.dir/reconstruct_itinery2.cpp.obj: CXX_COMPILER__ri_Debug C$:/Users/neha2/CLionProjects/leetcode/tree_graphs/reconstruct_itinery2.cpp || cmake_object_order_depends_target_ri
+  DEP_FILE = CMakeFiles\ri.dir\reconstruct_itinery2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\ri.dir
+  OBJECT_FILE_DIR = CMakeFiles\ri.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ri
+
+
+#############################################
+# Link the executable ri.exe
+
+build ri.exe: CXX_EXECUTABLE_LINKER__ri_Debug CMakeFiles/ri.dir/reconstruct_itinery2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ri.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ri.exe
+  TARGET_IMPLIB = libri.dll.a
+  TARGET_PDB = ri.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target td1
 
 
@@ -253,6 +286,8 @@ build bst_list: phony bst_list.exe
 
 build inors: phony inors.exe
 
+build ri: phony ri.exe
+
 build td1: phony td1.exe
 
 build wl: phony wl.exe
@@ -267,7 +302,7 @@ build zigzag: phony zigzag.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/tree_graphs/cmake-build-debug
 
-build all: phony zigzag.exe inors.exe wl.exe td1.exe bst_list.exe
+build all: phony zigzag.exe inors.exe wl.exe ri.exe td1.exe bst_list.exe
 
 # =============================================================================
 # Built-in targets

@@ -88,6 +88,12 @@ build CMakeFiles/dfstree.dir/dfs_tree_sum.cpp.obj: CXX_COMPILER__dfstree_Debug C
   OBJECT_DIR = CMakeFiles\dfstree.dir
   OBJECT_FILE_DIR = CMakeFiles\dfstree.dir
 
+build CMakeFiles/dfstree.dir/C_/Users/neha2/CLionProjects/leetcode/tree_graphs/reconstruct_itinery.cpp.obj: CXX_COMPILER__dfstree_Debug C$:/Users/neha2/CLionProjects/leetcode/tree_graphs/reconstruct_itinery.cpp || cmake_object_order_depends_target_dfstree
+  DEP_FILE = CMakeFiles\dfstree.dir\C_\Users\neha2\CLionProjects\leetcode\tree_graphs\reconstruct_itinery.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\dfstree.dir
+  OBJECT_FILE_DIR = CMakeFiles\dfstree.dir\C_\Users\neha2\CLionProjects\leetcode\tree_graphs
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target dfstree
@@ -96,7 +102,7 @@ build CMakeFiles/dfstree.dir/dfs_tree_sum.cpp.obj: CXX_COMPILER__dfstree_Debug C
 #############################################
 # Link the executable dfstree.exe
 
-build dfstree.exe: CXX_EXECUTABLE_LINKER__dfstree_Debug CMakeFiles/dfstree.dir/dfs_tree_sum.cpp.obj
+build dfstree.exe: CXX_EXECUTABLE_LINKER__dfstree_Debug CMakeFiles/dfstree.dir/dfs_tree_sum.cpp.obj CMakeFiles/dfstree.dir/C_/Users/neha2/CLionProjects/leetcode/tree_graphs/reconstruct_itinery.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\dfstree.dir
@@ -195,6 +201,39 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 
 build edit_cache: phony CMakeFiles/edit_cache.util
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lrc
+
+
+#############################################
+# Order-only phony target for lrc
+
+build cmake_object_order_depends_target_lrc: phony || CMakeFiles/lrc.dir
+
+build CMakeFiles/lrc.dir/largest_rectangle.cpp.obj: CXX_COMPILER__lrc_Debug C$:/Users/neha2/CLionProjects/leetcode/array/largest_rectangle.cpp || cmake_object_order_depends_target_lrc
+  DEP_FILE = CMakeFiles\lrc.dir\largest_rectangle.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\lrc.dir
+  OBJECT_FILE_DIR = CMakeFiles\lrc.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lrc
+
+
+#############################################
+# Link the executable lrc.exe
+
+build lrc.exe: CXX_EXECUTABLE_LINKER__lrc_Debug CMakeFiles/lrc.dir/largest_rectangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lrc.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lrc.exe
+  TARGET_IMPLIB = liblrc.dll.a
+  TARGET_PDB = lrc.exe.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -212,6 +251,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build dfstree: phony dfstree.exe
 
+build lrc: phony lrc.exe
+
 build stanza: phony stanza.exe
 
 build testyelloew: phony testyelloew.exe
@@ -226,7 +267,7 @@ build wt: phony wt.exe
 #############################################
 # Folder: C:/Users/neha2/CLionProjects/leetcode/array/cmake-build-debug
 
-build all: phony testyelloew.exe dfstree.exe stanza.exe wt.exe
+build all: phony testyelloew.exe dfstree.exe stanza.exe wt.exe lrc.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

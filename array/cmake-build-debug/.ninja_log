@@ -14,8 +14,8 @@
 21	3424	6744938304876467	CMakeFiles/bs2.dir/C_/Users/neha2/CLionProjects/leetcode/tree_graphs/Tree_Distance_1.cpp.obj	3cc349f1b9da5152
 1	3458	6744938305206461	CMakeFiles/bs2.dir/C_/Users/neha2/CLionProjects/leetcode/dp/buy_sell/buy_sell_cool_down.cpp.obj	1070687b4b7502a3
 24	3547	6744938306126462	CMakeFiles/bs2.dir/C_/Users/neha2/CLionProjects/leetcode/dp/regular_expression/regular_expr.cpp.obj	f45bc30c88a52a04
-1	384	6744938703030884	build.ninja	3f8df34004b3ecd4
-0	2360	6744938727650907	CMakeFiles/wt.dir/water_tapping.cpp.obj	475132be200b169c
-2361	2575	6744938729770879	wt.exe	4c8f06c9de18f59d
+1	384	6746581852783411	build.ninja	3f8df34004b3ecd4
 5	2301	6744939202719805	CMakeFiles/wt.dir/water_tapping.cpp.obj	475132be200b169c
 2301	2470	6744939204379826	wt.exe	4c8f06c9de18f59d
+6	2934	6744948602399878	CMakeFiles/lrc.dir/largest_rectangle.cpp.obj	483863ca9abb75ba
+2935	3118	6744948604219488	lrc.exe	6a1e9dcae51cc5da

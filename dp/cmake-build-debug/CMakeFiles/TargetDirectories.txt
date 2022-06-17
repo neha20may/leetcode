@@ -5,5 +5,8 @@ C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug/CMakeFiles/wildcard1.
 C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug/CMakeFiles/regr2.dir
 C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug/CMakeFiles/regr.dir
 C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug/CMakeFiles/hr.dir
+C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug/CMakeFiles/odd_even_sum.dir
+C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug/CMakeFiles/lcstrin.dir
+C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug/CMakeFiles/coin_change2.dir
 C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/neha2/CLionProjects/leetcode/dp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
