@@ -1,11 +1,16 @@
+cmake_minimum_required(VERSION 3.23)
+project(dp)
+set(CMAKE_CXX_STANDARD 14)
+
 add_executable(IncT increasing_triplet.cpp ../sliding_window/countandsay.cpp ../list/odd_even.cpp ../list/createList.h
         ../design/2dvector.cpp ../grid/count_paths.cpp ../recursion_back_track/valid_parenthesis.cpp ../array/sliding_window/sl_sum_k.cpp)
 add_executable(steps steps.cpp)
 add_executable(wildcard1 wildcard.cpp)
 add_executable(regr ./regular_expression/regular_expr.cpp)
 add_executable(regr2 ./regular_expression/wildcard_matching.cpp)
-add_executable(hr house_robber.cpp ../line_sweep/rectangle_area.cpp lcsubstring.cpp coin_change_2.cpp)
+add_executable(hr house_robber.cpp ../line_sweep/rectangle_area.cpp lcsubstring.cpp coin_change_2.cpp water_garden.cpp water_garden.h)
 add_executable(sa split_array.cpp)
 add_executable(odd_even_sum odd_even_sum.cpp)
 add_executable(lcstrin lcsubstring.cpp)
 add_executable(coin_change2 coin_change_2)
+add_executable(wg water_garden.cpp)
